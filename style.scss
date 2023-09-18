@@ -1,0 +1,17 @@
+@import './normalize.scss';
+@import './variables.scss';
+@import './header.scss';
+@import './main.scss';
+@import './footer.scss';
+
+body {
+  @include text-font();
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: $background-color-primary;
+}
+
+main {
+  flex: 1;
+}
