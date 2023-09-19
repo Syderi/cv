@@ -39,6 +39,10 @@ a {
 }
 
 .header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -228,9 +232,6 @@ a {
   text-align: center;
   height: 400px;
 }
-.contact:target {
-  scroll-behavior: smooth;
-}
 .contact h2 {
   font-size: 4.8rem;
   font-weight: 400;
@@ -352,4 +353,6 @@ body {
   flex-direction: column;
   background-color: #3C3C5B;
   overflow-y: auto;
+  scroll-margin-top: 20px;
+  scroll-snap-align: start;
 }
