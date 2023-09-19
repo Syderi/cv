@@ -1,0 +1,124 @@
+@charset "UTF-8";
+.about {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.about-greetings {
+  display: flex;
+  flex-direction: column;
+  width: 428px;
+  margin: 60px 10px;
+}
+.about-greetings > h1 {
+  font-size: 4.8rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.87);
+  line-height: normal;
+  font-style: normal;
+}
+.about-greetings > h1 span {
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: #1dff9e;
+  line-height: normal;
+  font-style: normal;
+}
+.about-greetings > p {
+  margin-top: 10px;
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.32);
+  line-height: normal;
+  font-style: normal;
+}
+.about-greetings .wave {
+  align-self: center;
+  width: 60%;
+}
+.about-greetings .wave > img {
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 8px;
+  border-radius: 16px;
+  border: 8px solid #605f8e;
+}
+
+.wave {
+  overflow: hidden;
+  position: relative;
+}
+
+.wave:hover img {
+  -webkit-animation: wave 0.5s ease;
+          animation: wave 0.5s ease;
+  transform-origin: 50% 50%;
+}
+
+@-webkit-keyframes wave {
+  0% {
+    transform: rotateY(0deg);
+  }
+  10% {
+    transform: rotateY(-6deg);
+  }
+  25% {
+    transform: rotateY(-8deg);
+  }
+  50% {
+    transform: rotateY(-10deg);
+  }
+  75% {
+    transform: rotateY(-8deg);
+  }
+  85% {
+    transform: rotateY(-6deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+
+@keyframes wave {
+  0% {
+    transform: rotateY(0deg);
+  }
+  10% {
+    transform: rotateY(-6deg);
+  }
+  25% {
+    transform: rotateY(-8deg);
+  }
+  50% {
+    transform: rotateY(-10deg);
+  }
+  75% {
+    transform: rotateY(-8deg);
+  }
+  85% {
+    transform: rotateY(-6deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+.about-greetings-description {
+  margin-top: 30px;
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.87);
+  line-height: normal;
+  font-style: normal;
+}
+.about-greetings-description p {
+  margin-top: 15px;
+  text-align: justify;
+  text-indent: 20px; /* Задаем отступ для первого параграфа */
+}
+.about-greetings-description > p span {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #1dff9e;
+  line-height: normal;
+  font-style: normal;
+}
