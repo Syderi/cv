@@ -40,21 +40,21 @@
       <nav class="nav">
         <ul class="nav-links">
           <li>
-            <a href="#">
+            <a href="#about">
               <img src="./assets/about.png" alt="house" />
               <strong>About</strong>
+            </a>
+          </li>
+          <li>
+            <a href="#contact">
+              <img src="./assets/info.png" alt="house" />
+              <strong>Contact</strong>
             </a>
           </li>
           <li>
             <a href="#">
               <img src="./assets/work.svg" alt="house" />
               <strong>Portfolio</strong>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./assets/info.png" alt="house" />
-              <strong>Contact</strong>
             </a>
           </li>
           <li>
@@ -67,14 +67,13 @@
       </nav>
     </header>
     <main>
-      <section class="wrapper-section about">
+      <section class="wrapper-section about" id="about">
         <div class="about-greetings">
-          <h1>Привет, Я <span>Евгений</span> </h1>
+          <h1>Привет, Я <span>Евгений</span></h1>
           <p>Добро пожаловать на мою страницу</p>
-            <div class="wave">
-
-              <img src="./assets/me.jpg" alt="me" />
-            </div>
+          <div class="wave">
+            <img src="./assets/me.jpg" alt="me" />
+          </div>
           <div class="about-greetings-description">
             <p>
               Я <span>Frontend developer</span> разработчик специализируюсь на
@@ -87,54 +86,62 @@
             <p>Я люблю говорить о мире, хобби и особенно о коде</p>
           </div>
         </div>
-        <div>
-          <h2>Хотите связаться со мной?</h2>
-          <div>
-            <p>Я стараюсь ответить в течение часа.</p>
-            <a href="mailto:syderi@yahoo.com" title="send to: syderi@yahoo.com">
-              <img src="./assets/email.png" alt="email" />
-              EMAIL
-            </a>
-          </div>
-          <div style="display: flex; align-items: center">
-            <hr
-              style="flex: 1; height: 1px; background-color: #000; border: none"
+      </section>
+      <section class="wrapper-section contact" id="contact">
+        <h2>Хотите связаться со мной?</h2>
+        <p>Я стараюсь ответить в течение часа.</p>
+        <div class="contact-email">
+          <a
+            class="link-social-email"
+            href="mailto:syderi@yahoo.com"
+            title="send to: syderi@yahoo.com"
+          >
+            <img src="./assets/email.png" alt="email" />
+            <p>email</p>
+          </a>
+        </div>
+        <div class="contact-or">
+          <hr />
+          <p>or</p>
+          <hr />
+        </div>
+        <div class="link-social-wrapper">
+          <a href="https://t.me/syderi" title="link to: telegram" target="_blank">
+            <img
+              style="height: 30px; width: 30px"
+              src="./assets/telegram.svg"
+              alt="telegram"
             />
-            <p style="margin: 0 10px">or</p>
-            <hr
-              style="flex: 1; height: 1px; background-color: #000; border: none"
+          </a>
+          <a
+            href="https://linkedin.com/in/eugeniy-kuzmin-34b5a8279"
+            title="link to: linkedin"
+            target="_blank"
+          >
+            <img
+              style="height: 30px; width: 30px"
+              src="./assets/linkedin.svg"
+              alt="linkedin"
             />
-          </div>
-          <div>
-            <a href="mailto:syderi@yahoo.com" title="send to: syderi@yahoo.com">
-              <img
-                style="height: 30px; width: 30px"
-                src="./assets/telegram.svg"
-                alt="telegram"
-              />
-            </a>
-            <a href="mailto:syderi@yahoo.com" title="send to: syderi@yahoo.com">
-              <img
-                style="height: 30px; width: 30px"
-                src="./assets/linkedin.svg"
-                alt="email"
-              />
-            </a>
-            <a href="mailto:syderi@yahoo.com" title="send to: syderi@yahoo.com">
-              <img
-                style="height: 30px; width: 30px"
-                src="./assets/github.svg"
-                alt="email"
-              />
-            </a>
-            <a href="mailto:syderi@yahoo.com" title="send to: syderi@yahoo.com">
-              <img
-                style="height: 30px; width: 30px"
-                src="./assets/phone-solid.svg"
-                alt="email"
-              />
-            </a>
-          </div>
+          </a>
+          <a
+            href="https://github.com/Syderi"
+            title="link to: github.com/Syderi"
+            target="_blank"
+          >
+            <img
+              style="height: 30px; width: 30px"
+              src="./assets/github.svg"
+              alt="github"
+            />
+          </a>
+          <a href="tel:89176585432" title="call to: 8 917 658 54 32">
+            <img
+              style="height: 30px; width: 30px"
+              src="./assets/phone-solid.svg"
+              alt="phone"
+            />
+          </a>
         </div>
       </section>
     </main>
