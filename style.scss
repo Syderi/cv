@@ -1,8 +1,8 @@
-@import './normalize.scss';
-@import './variables.scss';
-@import './header.scss';
-@import './main.scss';
-@import './footer.scss';
+@import './styles/normalize.scss';
+@import './styles/variables.scss';
+@import './styles/header.scss';
+@import './styles/main.scss';
+@import './styles/footer.scss';
 
 body {
   @include text-font();
@@ -10,8 +10,4 @@ body {
   display: flex;
   flex-direction: column;
   background-color: $background-color-primary;
-}
-
-main {
-  flex: 1;
 }
