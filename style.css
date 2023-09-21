@@ -323,6 +323,7 @@ a {
 
 .portfolio {
   text-align: center;
+  scroll-margin-top: 60px;
 }
 .portfolio h2 {
   font-size: 3.8rem;
