@@ -6,11 +6,10 @@
 
 body {
   @include text-font();
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   background-color: $background-color-main;
   overflow-y: auto;
-  scroll-margin-top: 20px;
-  scroll-snap-align: start
+  scroll-snap-align: start;
 }

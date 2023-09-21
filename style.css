@@ -231,6 +231,7 @@ a {
   align-items: center;
   text-align: center;
   height: 400px;
+  scroll-margin-top: 60px;
 }
 .contact h2 {
   font-size: 4.8rem;
@@ -320,6 +321,43 @@ a {
   transition: transform 0.3s ease-in-out;
 }
 
+.portfolio {
+  text-align: center;
+}
+.portfolio h2 {
+  font-size: 3.8rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.87);
+  line-height: normal;
+  font-style: normal;
+}
+
+.pet-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 250px;
+}
+.pet-container .pet {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+.pet-container .pet a img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  border-radius: 16px;
+  border: 8px solid #605f8e;
+}
+
+.img {
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 8px;
+  border-radius: 16px;
+  border: 8px solid #605f8e;
+}
+
 main {
   flex: 1;
   width: 872px;
@@ -348,11 +386,10 @@ body {
   color: rgba(255, 255, 255, 0.87);
   line-height: normal;
   font-style: normal;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   background-color: #3C3C5B;
   overflow-y: auto;
-  scroll-margin-top: 20px;
   scroll-snap-align: start;
 }
