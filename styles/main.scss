@@ -6,6 +6,10 @@ main {
   flex: 1;
   width: 872px;
   margin-inline: auto;
+  @media (max-width: $small-screen) {
+    min-width: 360px;
+    width: 100%;
+  }
 }
 
 .wrapper-section {
